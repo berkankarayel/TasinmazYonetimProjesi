@@ -1,0 +1,6 @@
+@TasinmazApi_HostAddress = http://localhost:5114
+
+GET {{TasinmazApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
