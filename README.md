@@ -38,6 +38,31 @@ Bu proje, **Angular 15** (frontend) ve **ASP.NET Core 8 Web API** (backend) tekn
 - 📋 Log kayıtlarının tutulması ve filtrelenmesi
 - 🔒 Güvenlik için token bazlı route guard (Angular)
 
+
+## 📷 Ekran Görüntüleri
+
+### Kullanıcı Giriş Yaptıktan Sonra Taşınmaz Listesi
+![kullanıcıtasinmaz](https://github.com/user-attachments/assets/8df5208b-49d5-4443-baf4-3affc626b25f)
+
+
+---
+
+### Admin Paneli - Tüm Kullanıcıların Listelenmesi
+![adminkullanici](https://github.com/user-attachments/assets/c0d39cf7-72de-4b93-bec2-b19e698da8e0)
+
+
+---
+
+### Log Kayıtlarının Görüntülenmesi ve Raporlanması
+![log](https://github.com/user-attachments/assets/27ef2171-2aff-4492-afa5-c05b4c7ac148)
+
+---
+
+### Tüm Taşınmazların Haritada Gösterilmesi (Admin Paneli)
+![tasinmazlar4](https://github.com/user-attachments/assets/321ba00e-5b98-432b-a3ea-e0cf06cb0e1a)
+
+
+
 ## 🛠️ Kurulum
 
 ### 1. Veritabanı
@@ -56,3 +81,9 @@ dotnet run
 cd frontend
 npm install
 ng serve
+
+
+
+
+
+
