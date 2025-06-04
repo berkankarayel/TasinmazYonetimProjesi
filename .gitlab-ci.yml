@@ -1,0 +1,26 @@
+stages:
+  - build-backend
+  - build-frontend
+
+variables:
+  DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+
+build_backend:
+  stage: build-backend
+  script:
+    - echo "Backend derleniyor..."
+    - cd TasinmazApi
+    - dotnet restore
+    - dotnet build --configuration Release
+  tags:
+    - shell  # shared runner kullanıyorsan silebilirsin
+
+build_frontend:
+  stage: build-frontend
+  script:
+    - echo "Frontend derleniyor..."
+    - cd tasinmaz-frontend
+    - npm install
+    - npm run build
+  tags:
+    - shell
